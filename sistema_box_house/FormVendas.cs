@@ -23,9 +23,9 @@ namespace sistema_box_house
             Produtos p1 = new Produtos("Coleira Universal", 5.99, 1);
             Produtos p2 = new Produtos("Ração", 38.59, 1);
             Produtos p3 = new Produtos("Brinquedos", 10.25, 1);
-            Produtos p4 = new Produtos("Brinquedos", 10.25, 1);
-            Produtos p5 = new Produtos("Brinquedos", 10.25, 1);
-            Produtos p6 = new Produtos("Brinquedos", 10.25, 1);
+            Produtos p4 = new Produtos("Casinha de Cachorro", 49.90, 1);
+            Produtos p5 = new Produtos("Banho", 50, 1);
+            Produtos p6 = new Produtos("Tosa", 50, 1);
 
 
             inventarioProdutos.Add(p1);
