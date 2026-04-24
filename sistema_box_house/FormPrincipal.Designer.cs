@@ -70,6 +70,7 @@
             this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "FECHAR";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // FormPrincipal
             // 

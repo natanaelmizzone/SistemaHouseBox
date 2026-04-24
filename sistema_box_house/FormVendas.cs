@@ -20,20 +20,20 @@ namespace sistema_box_house
         {
             InitializeComponent();
 
-            Produtos p1 = new Produtos("Coleira Universal", 5.99, 1);
-            Produtos p2 = new Produtos("Ração", 38.59, 1);
-            Produtos p3 = new Produtos("Brinquedos", 10.25, 1);
-            Produtos p4 = new Produtos("Casinha de Cachorro", 49.90, 1);
-            Produtos p5 = new Produtos("Banho", 50, 1);
-            Produtos p6 = new Produtos("Tosa", 50, 1);
+            Produtos produto1 = new Produtos("Coleira Universal", 5.99, 1);
+            Produtos produto2 = new Produtos("Ração", 38.59, 1);
+            Produtos produto3 = new Produtos("Brinquedos", 10.25, 1);
+            Produtos produto4 = new Produtos("Casinha de Cachorro", 49.90, 1);
+            Produtos produto5 = new Produtos("Banho", 50, 1);
+            Produtos produto6 = new Produtos("Tosa", 50, 1);
 
 
-            inventarioProdutos.Add(p1);
-            inventarioProdutos.Add(p2);
-            inventarioProdutos.Add(p3);
-            inventarioProdutos.Add(p4);
-            inventarioProdutos.Add(p5);
-            inventarioProdutos.Add(p6);
+            inventarioProdutos.Add(produto1);
+            inventarioProdutos.Add(produto2);
+            inventarioProdutos.Add(produto3);
+            inventarioProdutos.Add(produto4);
+            inventarioProdutos.Add(produto5);
+            inventarioProdutos.Add(produto6);
 
             dgvProdutosAdicionados.DataSource = listaProdutos;
         }
@@ -59,7 +59,6 @@ namespace sistema_box_house
             {
                 var locProduto = inventarioProdutos.FirstOrDefault(p => p.NomeProduto == nomeProduto);
                 double valorProduto = locProduto.ValorProduto;
-
                 Produtos produtoAdicionado = new Produtos(nomeProduto, valorProduto, qtdProduto);
 
                 listaProdutos.Add(produtoAdicionado);
@@ -75,13 +74,20 @@ namespace sistema_box_house
             }
             else
             {
-                MessageBox.Show("Preencha todos os campos corretamente.", "Mensagem de Aviso");
+                MessageBox.Show("Preencha todos os campos.", "Aviso");
             }
         }
 
         private void cbSelecionarProdutos_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+
+        }
+
+        private void btnFinalizar_Click(object sender, EventArgs e)
+        {
+            FormPrincipal formPrincipal = new FormPrincipal();
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 

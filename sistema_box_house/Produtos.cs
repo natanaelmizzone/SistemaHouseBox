@@ -24,11 +24,11 @@ namespace sistema_box_house
         {
             if (QtdProduto == 1)
             {
-                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado com sucesso.", "Mensagem de Aviso");
+                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado.", "Aviso");
             }
             else
             {
-                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado {QtdProduto} vezes com sucesso.", "Mensagem de Aviso");
+                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado {QtdProduto} vezes.", "Aviso");
             }
         }
     }

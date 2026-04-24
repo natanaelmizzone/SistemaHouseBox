@@ -17,13 +17,16 @@ namespace sistema_box_house
             InitializeComponent();
         }
 
-
-    
         private void btnVendas_Click_1(object sender, EventArgs e)
         {
             FormVendas formVendas = new FormVendas();
 
             formVendas.ShowDialog();
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {   
+            this.Close();
         }
     }
 }

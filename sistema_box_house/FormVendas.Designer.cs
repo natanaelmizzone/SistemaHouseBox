@@ -140,6 +140,7 @@
             this.btnFinalizar.TabIndex = 7;
             this.btnFinalizar.Text = "Finalizar Pedido";
             this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
             // lbValorTotal
             // 
