@@ -13,35 +13,44 @@ namespace sistema_box_house
     public partial class FormVendas : Form
     {
         BindingList<Produtos> listaProdutos = new BindingList<Produtos>();
-        BindingList<Produtos> inventarioProdutos = new BindingList<Produtos>();
+        BindingList<Produtos> estoqueProdutos = new BindingList<Produtos>();
 
         double valorTotal = 0;
         public FormVendas()
         {
             InitializeComponent();
 
-            Produtos produto1 = new Produtos("Coleira Universal", 5.99, 1);
-            Produtos produto2 = new Produtos("Ração", 38.59, 1);
-            Produtos produto3 = new Produtos("Brinquedos", 10.25, 1);
-            Produtos produto4 = new Produtos("Casinha de Cachorro", 49.90, 1);
-            Produtos produto5 = new Produtos("Banho", 50, 1);
-            Produtos produto6 = new Produtos("Tosa", 50, 1);
+            Produtos prod1 = new Produtos("Coleira Universal", 5.99, 1);
+            Produtos prod2 = new Produtos("Ração", 38.59, 1);
+            Produtos prod3 = new Produtos("Brinquedos", 10.25, 1);
+            Produtos prod4 = new Produtos("Casinha de Cachorro", 49.90, 1);
+            Produtos prod5 = new Produtos("Banho", 50, 1);
+            Produtos prod6 = new Produtos("Tosa", 50, 1);
 
 
-            inventarioProdutos.Add(produto1);
-            inventarioProdutos.Add(produto2);
-            inventarioProdutos.Add(produto3);
-            inventarioProdutos.Add(produto4);
-            inventarioProdutos.Add(produto5);
-            inventarioProdutos.Add(produto6);
+            estoqueProdutos.Add(prod1);
+            estoqueProdutos.Add(prod2);
+            estoqueProdutos.Add(prod3);
+            estoqueProdutos.Add(prod4);
+            estoqueProdutos.Add(prod5);
+            estoqueProdutos.Add(prod6);
 
             dgvProdutosAdicionados.DataSource = listaProdutos;
+
+            cbSelecionarProdutos.Items.Add("Coleira Universal");
+            cbSelecionarProdutos.Items.Add("Ração");
+            cbSelecionarProdutos.Items.Add("Brinquedos");
+            cbSelecionarProdutos.Items.Add("Casinha de Cachorro");
+            cbSelecionarProdutos.Items.Add("Banho");
+            cbSelecionarProdutos.Items.Add("Tosa");
         }
 
         private void fnLimparForms()
         {
             cbSelecionarProdutos.SelectedIndex = -1;
             numQuantidade.Value = 1;
+    
+
         }
 
         
@@ -57,8 +66,8 @@ namespace sistema_box_house
 
             if (nomeProduto != string.Empty && qtdProduto > 0)
             {
-                var locProduto = inventarioProdutos.FirstOrDefault(p => p.NomeProduto == nomeProduto);
-                double valorProduto = locProduto.ValorProduto;
+                var campoProduto = estoqueProdutos.FirstOrDefault(p => p.NomeProduto == nomeProduto);
+                double valorProduto = campoProduto.ValorProduto;
                 Produtos produtoAdicionado = new Produtos(nomeProduto, valorProduto, qtdProduto);
 
                 listaProdutos.Add(produtoAdicionado);
@@ -71,6 +80,7 @@ namespace sistema_box_house
                 dgvProdutosAdicionados.Refresh();
 
                 produtoAdicionado.fnMsgAddProduto();
+
             }
             else
             {

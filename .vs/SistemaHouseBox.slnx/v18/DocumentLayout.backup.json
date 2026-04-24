@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormVendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_box_house\\FormVendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_box_house\\FormPrincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_box_house\\Produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sistema_box_house\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +42,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Program.cs",
+              "RelativeDocumentMoniker": "sistema_box_house\\Program.cs",
+              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Program.cs",
+              "RelativeToolTip": "sistema_box_house\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T01:13:52.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FormVendas.cs",
+              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormVendas.cs",
+              "RelativeDocumentMoniker": "sistema_box_house\\FormVendas.cs",
+              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormVendas.cs",
+              "RelativeToolTip": "sistema_box_house\\FormVendas.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T00:54:55.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "sistema_box_house\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\FormPrincipal.cs",
+              "RelativeToolTip": "sistema_box_house\\FormPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T00:54:52.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Produtos.cs",
               "DocumentMoniker": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Produtos.cs",
               "RelativeDocumentMoniker": "sistema_box_house\\Produtos.cs",
               "ToolTip": "C:\\Users\\natanael.smizzone\\source\\repos\\SistemaBoxHouse\\SistemaHouseBox\\sistema_box_house\\Produtos.cs",
               "RelativeToolTip": "sistema_box_house\\Produtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T00:46:44.549Z",
               "EditorCaption": ""

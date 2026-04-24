@@ -28,7 +28,7 @@ namespace sistema_box_house
             }
             else
             {
-                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado {QtdProduto} vezes.", "Aviso");
+                MessageBox.Show($"O produto '{NomeProduto}' foi adicionado.", "Aviso");
             }
         }
     }
